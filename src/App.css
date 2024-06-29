@@ -1,3 +1,7 @@
+.card {
+    flex-basis: 251px;
+}
+
 .card-header {
     display: grid;
 }
@@ -9,5 +13,12 @@
 
 .card .card-img img {
     width: 200px;
-    height: 150px;
+    height: 170px;
+    object-fit: contain;
+}
+
+.danger-active {
+    background-color: var(--red);
+    color: var(--white);
+    border: none !important;
 }

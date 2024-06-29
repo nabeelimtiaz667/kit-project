@@ -12,11 +12,12 @@
   --white: #ffffff;
   --off-white: rgb(250, 250, 250);
   --bg: rgb(245, 245, 245);
+  --star: #ffad33;
 }
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,6 +40,10 @@ body {
 
 .white {
   color: var(--white)
+}
+
+.star-color {
+  color: var(--star);
 }
 
 .off-white {
