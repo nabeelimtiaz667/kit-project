@@ -216,7 +216,7 @@ export default function Product() {
                 <TbTruckDelivery className="w-1/5 text-5xl mr-2" />
                 <FlexCol className="gap-2 pl-2 lg:pl-0">
                   <div className="text-base">Free Delivery</div>
-                  <div className="text-sm">
+                  <div className="text-sm underline">
                     Enter your postal code for Delivery Availability
                   </div>
                 </FlexCol>
@@ -226,7 +226,8 @@ export default function Product() {
                 <FlexCol className="gap-2 pl-2 lg:pl-0">
                   <div className="text-base">Free Delivery</div>
                   <div className="text-sm">
-                    Enter your postal code for Delivery Availability
+                    Free 30 Days Delivery Returns.
+                    <span className="underline">Details</span>
                   </div>
                 </FlexCol>
               </FlexRow>
